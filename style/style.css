@@ -180,8 +180,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    max-width: 120px;
+    max-width: 111px;
     min-width: 70px;
     margin-left: 4rem;
 }
