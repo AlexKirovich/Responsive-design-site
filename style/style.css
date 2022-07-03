@@ -170,20 +170,170 @@ body {
 .header-img {
   margin-left: auto;
 }
-.bgt-partners{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin-top: 2rem;
+.gpt-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
-.bgt-partners img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 111px;
-    min-width: 70px;
-    margin-left: 4rem;
+.gpt-partners div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  min-width: 120;
+  margin: 4rem;
 }
-.bgt-partners img:first-of-type{
-    margin-left: 0;
+.gpt-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem;
+  padding: 6rem;
+  background: #042c54;
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    329deg,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 22%,
+    rgba(4, 44, 84, 1) 23%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    329deg,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 22%,
+    rgba(4, 44, 84, 1) 23%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    329deg,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 22%,
+    rgba(4, 44, 84, 1) 23%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1B78DE', endColorstr='#042C54', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    329deg,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 22%,
+    rgba(4, 44, 84, 1) 23%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    329deg,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 22%,
+    rgba(4, 44, 84, 1) 23%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gr-line {
+  width: 38px;
+  height: 3px;
+  background: var(--color-gradient);
+  margin-bottom: 0.7rem;
+}
+.gpt-heading {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+}
+.gpt-info-text {
+  max-width: 700px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+}
+.gpt-possibilities {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: space-between;
+}
+.gradient-h {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 45px;
+  background: var(--color-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 480px;
+}
+.gpt-subheading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ff8a71;
+}
+.gpt-features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+.gpt-feature {
+  max-width: 330px;
+}
+.feature-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+  margin-top: 5rem;
+}
+.gpt-features-block {
+  display: flex;
+  margin: 5rem;
+  justify-content: space-between;
+  
+}
+.gpt-features-heading {
+  max-width: 380px;
+}
+.gpt-features-heading p {
+  margin-top: 2rem;
+}
+.gpt-features-block-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.feature-from-list {
+  width: 180px;
+  margin-top: 3rem;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+}
+.feature-from-list:first-of-type {
+  margin-top: 1rem;
+}
+.gpt-features-descriptions-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gpt-feature-description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #81afdd;
+  max-width: 330px;
 }
